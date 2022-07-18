@@ -1,0 +1,20 @@
+body{
+    background-color: #d7e7f4;
+}
+.body{
+    padding-top: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    max-width: 954px;
+    height: 100vh;
+}
+a{
+    color: #007baf;
+}
+button{
+    background-color: #007baf;
+    color: white;
+    border: none;
+    padding: 3px;
+}

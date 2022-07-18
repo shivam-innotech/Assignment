@@ -1,0 +1,49 @@
+.gridcontainer{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    max-width: 80%;
+    text-align: left;
+}
+.leftcontent{
+}
+.rightcontent{
+}
+.box{
+    max-width: 100%;
+    height: 250px;
+    background-color: gray;
+}
+.serch{
+    max-width: 80%;
+    background-color: gray;
+    height: auto;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.blogtxt{
+    color: white;
+    text-align: left;
+    margin-left: 13px;
+}
+.sechbox{
+    width: 90%;
+}
+.txtbox{
+    display: flex;
+    justify-content: space-around;
+    color: rgb(0, 136, 255);
+    padding: 0px 0px 20px 0px;
+}
+.cont{
+    text-align: left;
+    color: white;
+    margin-top: 20px;
+    max-width: 80%;
+    background-color: gray;
+}
+.last{
+    padding: 0px 10px 10px 10px;
+}
+.inlasy{
+    padding: 10px;
+}
