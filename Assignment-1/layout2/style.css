@@ -30,8 +30,18 @@ p{
 .container{
     max-width: 70em;
 }
-@media (max-width: 767px) {
+img{
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 992px) {
     .gridcontainer{
-        grid-template-columns: 100%;
+        grid-template-columns: auto auto;
+    }
+}
+@media (max-width: 530px) {
+    .gridcontainer{
+        grid-template-columns: auto;
     }
 }

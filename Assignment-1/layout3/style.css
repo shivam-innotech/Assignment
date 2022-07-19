@@ -11,17 +11,20 @@
 .box{
     max-width: 100%;
     height: 250px;
-    background-color: gray;
+    background-color: gainsboro;
 }
 .serch{
     max-width: 80%;
-    background-color: gray;
+    background-color: gainsboro;
     height: auto;
     padding-bottom: 20px;
     padding-top: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    border-radius: 5px;
 }
 .blogtxt{
-    color: white;
     text-align: left;
     margin-left: 13px;
 }
@@ -30,22 +33,32 @@
 }
 .txtbox{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     color: rgb(0, 136, 255);
-    padding: 0px 0px 20px 0px;
+    padding: 0px 12px 20px 12px;
 }
 .cont{
     text-align: left;
-    color: white;
     margin-top: 20px;
     max-width: 80%;
-    background-color: gray;
+    background-color: gainsboro;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    border-radius: 5px;
 }
 .last{
     padding: 0px 10px 10px 10px;
 }
 .inlasy{
     padding: 10px;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.p{
+    color: gray;
 }
 
 @media (max-width: 767px) {
