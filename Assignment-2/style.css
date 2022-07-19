@@ -1,0 +1,36 @@
+.same{
+    width: 300px;
+    height: 200px;
+    border-style: solid;
+    position: relative;
+}
+.box1{
+    border-color: red;
+}
+.box2{
+    border-color: yellow;
+}
+.box3{
+    border-color: blue;
+}
+.box4{
+    border-color: green;
+}
+.box5{
+    width: 200px;
+    height: 100px;
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+    top: 154px;
+    left: 197px;
+}
+.box1st{
+    display: flex;
+}
+.main{
+    width: 100%;
+    position: absolute;
+    top: 122px;
+    left: 500px;
+}
