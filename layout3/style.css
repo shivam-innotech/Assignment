@@ -47,3 +47,15 @@
 .inlasy{
     padding: 10px;
 }
+
+@media (max-width: 767px) {
+    .gridcontainer{
+        grid-template-columns: 100%;
+    }
+    .cont{
+        max-width: 100%;
+    }
+    .serch{
+        max-width: 100%;
+    }
+}

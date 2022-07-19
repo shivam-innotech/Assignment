@@ -5,16 +5,19 @@ body{
     padding-top: 10px;
     background-color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     max-width: 954px;
     height: 100vh;
+    padding: 0px 22px 0px 22px;
 }
 a{
     color: #007baf;
 }
-button{
-    background-color: #007baf;
-    color: white;
-    border: none;
-    padding: 3px;
+.serch{
+    position: relative;
+    top: 7px;
+}
+img{
+    max-width: 100%;
+    height: auto;
 }
