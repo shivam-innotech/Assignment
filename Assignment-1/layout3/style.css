@@ -4,9 +4,9 @@
     max-width: 80%;
     text-align: left;
 }
-.leftcontent{
-}
-.rightcontent{
+
+hr{
+    border-color: gainsboro;
 }
 .box{
     max-width: 100%;
