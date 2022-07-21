@@ -1,36 +1,35 @@
-.same{
-    width: 300px;
-    height: 200px;
-    border-style: solid;
+.main{
+    width: 800px;
+    height: 400px;
     position: relative;
+    top: 150px;
+    margin: 0 auto;
+}
+.same{
+    position: absolute;
+    width: 398px;
+    height: 198px;
+    border-style: solid;
+    border-width: 2px;
 }
 .box1{
-    border-color: red;
+    border-color: goldenrod;
 }
 .box2{
-    border-color: yellow;
+    border-color: blue;
+    right: 0px;
 }
 .box3{
-    border-color: blue;
+    border-color: yellowgreen;
+    bottom: 0;
 }
 .box4{
-    border-color: green;
+    border-color: palevioletred;
+    bottom: 0;
+    right: 0;
 }
 .box5{
-    width: 200px;
-    height: 100px;
-    border-style: solid;
     border-color: black;
-    position: absolute;
-    top: 154px;
-    left: 197px;
-}
-.box1st{
-    display: flex;
-}
-.main{
-    width: 100%;
-    position: absolute;
-    top: 122px;
-    left: 500px;
+    top: 104px;
+    left: 201px;
 }
