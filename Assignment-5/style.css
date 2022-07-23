@@ -35,8 +35,8 @@ ul {
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: rgb(130, 182, 217);
-    min-width: 160px;
+    background-color: ;
+    min-width: ;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
