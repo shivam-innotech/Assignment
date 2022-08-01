@@ -1,56 +1,3 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <title>Calculator</title>
-</head>
-
-<body>
-    <div class="container">
-        <div class="calculator">
-            <input type="text" name="screen" id="input">
-            <table>
-                <tr>
-                    <td><button class="ope">+</button></td>
-                    <td><button class="ope">-</button></td>
-                    <td><button class="ope">*</button></td>
-                    <td><button class="ope">/</button></td>
-                </tr>
-                <tr>
-                    <td><button>7</button></td>
-                    <td><button>8</button></td>
-                    <td><button>9</button></td>
-                    <td rowspan="4"><button class="equal">=</button></td>
-                </tr>
-                <tr>
-                    <td><button>4</button></td>
-                    <td><button>5</button></td>
-                    <td><button>6</button></td>
-                </tr>
-                <tr>
-                    <td><button>1</button></td>
-                    <td><button>2</button></td>
-                    <td><button>3</button></td>
-                </tr>
-                <tr>
-                    <td><button>0</button></td>
-                    <td><button>.</button></td>
-                    <td><button>C</button></td>
-                </tr>
-            </table>
-        </div>
-    </div>
-
-</body>
-<script src="main.js"></script>
-
-</html> -->
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -63,42 +10,40 @@
     <script src="main.js" defer></script>
 </head>
 
-<body>
-    <div class="calculator-grid">
-        <div class="output">
-            <div data-previous-operand class="previous-operand"></div>
-            <div data-current-operand class="current-operand"></div>
-        </div>
+<div class="calculator">
+    <div class="input" id="input"></div>
+    <div class="buttons">
         <table>
             <tr>
-                <td><button class="ope" data-operation>+</button></td>
-                <td><button class="ope" data-operation>-</button></td>
-                <td><button class="ope" data-operation>*</button></td>
-                <td><button class="ope" data-operation>÷</button></td>
+                <td class="all operators">+</td>
+                <td class="all operators">-</td>
+                <td class="all operators">&times;</td>
+                <td class="all operators">&divide;</td>
             </tr>
             <tr>
-                <td><button data-number>7</button></td>
-                <td><button data-number>9</button></td>
-                <td><button data-number>9</button></td>
-                <td rowspan="4"><button data-equals class="span-two btnheight equal">=</button></td>
+                <td class="all numbers">7</td>
+                <td class="all numbers">8</td>
+                <td class="all numbers">9</td>
+                <td rowspan="4" class="all equal" id="result">=</td>
             </tr>
             <tr>
-                <td><button data-number>4</button></td>
-                <td><button data-number>5</button></td>
-                <td><button data-number>6</button></td>
+                <td class="all numbers">4</td>
+                <td class="all numbers">5</td>
+                <td class="all numbers">6</td>
             </tr>
             <tr>
-                <td><button data-number>1</button></td>
-                <td><button data-number>2</button></td>
-                <td><button data-number>3</button></td>
+                <td class="all numbers">1</td>
+                <td class="all numbers">2</td>
+                <td class="all numbers">3</td>
             </tr>
             <tr>
-                <td><button data-number>0</button></td>
-                <td><button data-number>.</button></td>
-                <td><button data-all-clear class="span-two">C</button></td>
+                <td class="all numbers">0</td>
+                <td class="all numbers">.</td>
+                <td id="clear" class="all numbers">C</td>
             </tr>
         </table>
     </div>
+</div>
 </body>
 
 </html>
