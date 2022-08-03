@@ -31,3 +31,13 @@ button :hover{
 p{
     padding: 2px;
 }
+#button-lap, #button-stop, #button-reset{
+    display: none;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+}
+ul, li{
+    list-style-type: none;
+}

@@ -14,13 +14,19 @@
         <h1>Stopwatch</h1>
         <h1>Vanilla JavaScript Stopwatch</h1>
         <div class="time">
+            <p id="hours">00</p>
+            <p>:</p>
             <p id="seconds">00</p>
             <p>:</p>
             <p id="tens">00</p>
         </div>
-        <button id="button-start">Start</button>
-        <button id="button-stop">Stop</button>
-        <button id="button-reset">Reset</button>
+        <div class="btns">
+            <button id="button-start">Start</button>
+            <button id="button-reset">Reset</button>
+            <button id="button-stop">Stop</button>
+            <button id="button-lap">Lap</button>
+        </div>
+        <ul id="laps"></ul>
     </div>
 </body>
 <script src="main.js"></script>
