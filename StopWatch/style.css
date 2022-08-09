@@ -31,7 +31,7 @@ button :hover{
 p{
     padding: 2px;
 }
-#button-lap, #button-stop, #button-reset{
+#button-lap, #button-stop, #button-reset, #tens{
     display: none;
 }
 .btns{
